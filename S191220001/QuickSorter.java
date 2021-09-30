@@ -41,6 +41,7 @@ public class QuickSorter implements Sorter {
 				swap(i,j);
 			}
 		}
+       // if (i!=left)
         swap(i,left);
 		QuickSort(left,i-1);
 		QuickSort(i+1,right);

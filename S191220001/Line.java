@@ -22,11 +22,11 @@ public class Line {
         }
     }
 
-    public class Position {
+    public static class Position {
 
         private Linable linable;
 
-        Position(Linable linable) {
+        public Position(Linable linable) {
             this.linable = linable;
         }
 
