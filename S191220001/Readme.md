@@ -1,39 +1,1 @@
-
-# W02
-
-## 任务一
-
-1. 
-![](http://www.plantuml.com/plantuml/png/fLEnKW8n4Etp5IaFn-CFS926ne8HjN4i0gn7D9VS99jHFFbtaztBoSZOQ7FxUDcyzx89yu3AOsoDMCJDni3QUGGlw_hpIZ8MsgRlizh2GFJ2EBMh4ltu9C502nR3H4od8gJrYb03k3BAfXz7iJKg1CdoVr6OpKHuKrrkb_fIvlBohNkZBVGYVwd1W6rmFn5rBRg8LU9LifM6A-_MnO0boG7T6hss3PkZk_PU7KxYhrpGg9qLlIZmfpYP1i21Fby-Zblh-Y8dFXdjq2pwh30w522x0PJaOqSX7fI9G7d1nbOkNVIx94QLZkdvx0sN3OLD-wXXSRXLzfNR4Y3D34YTXZ_wKRzKrk4U_Fda_fsUzFFhAmFXyIy1Fi2d0p6eIloxFOmCk_CBgxZ8G8NMZBPmt-LR0PanaPto0UYTyI5abp2jm3ji8qBX0qANyut_3rSo3K5_e-YUvs1tiJLV)
-![](http://www.plantuml.com/plantuml/png/TP31JGGn34Nlhi8Km1bf3cXRoSnyaeWG1yVHIjpeYvveWMIoGWpI7f8lsNvVtxvKSshjBL6A6O_FNfhkbHT-RsZu_lgaB0PEUB65d_ZMZfajOCuGUU03sjb3E-jAWTD9QlIXexVUfd26dQYAsc2cTcOBKi5hMzU4MPp6fw78hrck7FepuL7-6w_TDHYxBJn-RkNX5Em_z6jCLur7nAaT5tziNLGsr4fqGTxxvNu0)
-
-2. example将linable，sorter定义为接口，方便了后续类的引用。将line，geezer，gourd等类分开实现符合直觉和日常使用。position感觉可以作为单独类进行实现而不用放在line中；
-
-## 任务二
-
-类图：
-![](http://www.plantuml.com/plantuml/png/hLF1JiCm3BtdAtBiqBe_61exWpGOS44SiivqeMbI9QbWAljt4iSf4umBx5A_FhllEOwxS5vOtxUABVlDHi7QM0-Mb-N79K-OtVQoQaxmQr1GUMdqYPpKuVaYAY1YOCg8RH7efsSE2bhGtatORCPSo1U8Ql0h9NHuER1A2UVuwF0NaVcSkJVHnN8kfpo6rozfFDJvPMc8PzUzbXe65fzOe43NVZTXPScwtXU15y6MgnJJrp8R94bqy6RjhTHrClVcobgnFnhuoZWPvyq6bk5tSJHru8d-cJwCdvRbHUpuQ1cec0rHONJ8W7S4SkTZHIOUXUhXgDyRertG3dg4yAms3Q1EOJD5hi76WmPLBlTtGZUfFW1qY1SmUb8T5zhu7TWJy_ll6SWX_ZTvCBJtMZHnI1YBtFZz3eWWyxHcHGhSOS2SaXeUkdWrm2EUabFOmpOWhEc4TO2xbux4ku0n0-zGzHuoxpnqiTlnBpVK7_Ny2uCtlm2zxLlr2G00)
-
-[视频地址](https://www.bilibili.com/video/BV1nv411G7ef)
-
-<iframe src="//player.bilibili.com/player.html?aid=250777944&bvid=BV1nv411G7ef&cid=417258638&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-
-## 任务三
-
-将上一任务中自己写的代码，改为“蛇精指挥256个小妖怪站成一个16x16方阵“的场景。要求：
-
-1. 对上一任务中代码的修改应尽量小；
-2. 每个小妖怪具有一种独特的颜色；
-3. 初始状态下小妖怪随机站成16x16方阵；
-4. 实现至少两种排序算法，将小妖怪按其颜色值排序；
-5. 如示例代码一样将排序过程可视化；
-6. 在自己的`Readme.md`中画出相应类图，并添加可视化结果展示链接。
-
-
-
-请在 https://asciinema.org 上注册账户并上传上述执行结果录屏。
-
-[![asciicast](https://asciinema.org/a/436507.svg)](https://asciinema.org/a/436507)
-
-
-
+# W02## 任务一1. ![](http://www.plantuml.com/plantuml/png/fLEnKW8n4Etp5IaFn-CFS926ne8HjN4i0gn7D9VS99jHFFbtaztBoSZOQ7FxUDcyzx89yu3AOsoDMCJDni3QUGGlw_hpIZ8MsgRlizh2GFJ2EBMh4ltu9C502nR3H4od8gJrYb03k3BAfXz7iJKg1CdoVr6OpKHuKrrkb_fIvlBohNkZBVGYVwd1W6rmFn5rBRg8LU9LifM6A-_MnO0boG7T6hss3PkZk_PU7KxYhrpGg9qLlIZmfpYP1i21Fby-Zblh-Y8dFXdjq2pwh30w522x0PJaOqSX7fI9G7d1nbOkNVIx94QLZkdvx0sN3OLD-wXXSRXLzfNR4Y3D34YTXZ_wKRzKrk4U_Fda_fsUzFFhAmFXyIy1Fi2d0p6eIloxFOmCk_CBgxZ8G8NMZBPmt-LR0PanaPto0UYTyI5abp2jm3ji8qBX0qANyut_3rSo3K5_e-YUvs1tiJLV)![](http://www.plantuml.com/plantuml/png/TP31JGGn34Nlhi8Km1bf3cXRoSnyaeWG1yVHIjpeYvveWMIoGWpI7f8lsNvVtxvKSshjBL6A6O_FNfhkbHT-RsZu_lgaB0PEUB65d_ZMZfajOCuGUU03sjb3E-jAWTD9QlIXexVUfd26dQYAsc2cTcOBKi5hMzU4MPp6fw78hrck7FepuL7-6w_TDHYxBJn-RkNX5Em_z6jCLur7nAaT5tziNLGsr4fqGTxxvNu0)2. example将linable，sorter定义为接口，方便了后续类的引用。将line，geezer，gourd等类分开实现符合直觉和日常使用。position感觉可以作为单独类进行实现而不用放在line中；## 任务二类图：![](http://www.plantuml.com/plantuml/png/hLF1JiCm3BtdAtBiqBe_61exWpGOS44SiivqeMbI9QbWAljt4iSf4umBx5A_FhllEOwxS5vOtxUABVlDHi7QM0-Mb-N79K-OtVQoQaxmQr1GUMdqYPpKuVaYAY1YOCg8RH7efsSE2bhGtatORCPSo1U8Ql0h9NHuER1A2UVuwF0NaVcSkJVHnN8kfpo6rozfFDJvPMc8PzUzbXe65fzOe43NVZTXPScwtXU15y6MgnJJrp8R94bqy6RjhTHrClVcobgnFnhuoZWPvyq6bk5tSJHru8d-cJwCdvRbHUpuQ1cec0rHONJ8W7S4SkTZHIOUXUhXgDyRertG3dg4yAms3Q1EOJD5hi76WmPLBlTtGZUfFW1qY1SmUb8T5zhu7TWJy_ll6SWX_ZTvCBJtMZHnI1YBtFZz3eWWyxHcHGhSOS2SaXeUkdWrm2EUabFOmpOWhEc4TO2xbux4ku0n0-zGzHuoxpnqiTlnBpVK7_Ny2uCtlm2zxLlr2G00)[视频地址](https://www.bilibili.com/video/BV1nv411G7ef)<iframe src="//player.bilibili.com/player.html?aid=250777944&bvid=BV1nv411G7ef&cid=417258638&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>## 任务三类图：![](http://www.plantuml.com/plantuml/png/hLJ14j8m4BtdAt8iJiiVu21dcK5HBuw7KDOIcoQT91rXAl_kPfFKeZqXb-xBxkQztSt2rdbX_T0fjXjE9mL7OprONbM_tlA8sOT1rks2_mWAQY-DNeX9ZT_leeRa69aouboW--itZlSwqDwjs7hD7COBGWtuWn8Q3tTMA-4SdnIU8TbicFif-f3EPSc3-V67cffwFMqQuijvtqiD8mjVIb2W6tzPiQfY_U0Bz0kKvIhQU5jcWKX92juSlPMwYUBUlBDMt6O3FnWdmxpPo3Bycvn47VZa_ZTydwvMrPjGyMmPKZ8R0yEaa07l4yYLJndPyKMe0MRrxerso8ry2L6lDWwWYUPKag-bmf4ZPUvk7uLkOpu2KWWFC6ccF2wqyHUm2_FxtnwIGlZTvC6alTUY3KCYM-J2FrqWEP9uNBCY6kx8K0pV0ZxtuMc01rmc9Tp33X7bT08xkMBMdW2Fvv8lfFR2Eg0rZTtp7Z55u0hru27xyM8V6fl-44ng9I_9iWTnxZmMWwr7yFoopzVxyUKU5pGhRa6VXqxz1W00)[视频地址](https://www.bilibili.com/video/BV1nv411G7ef?p=5)<iframe src="//player.bilibili.com/player.html?aid=250777944&bvid=BV1nv411G7ef&cid=417258638&page=5" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>**视频均配有带感BGM**

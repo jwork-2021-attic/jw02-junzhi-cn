@@ -24,7 +24,7 @@ public class Line {
 
     public static class Position {
 
-        private Linable linable;
+        public Linable linable;
 
         public Position(Linable linable) {
             this.linable = linable;

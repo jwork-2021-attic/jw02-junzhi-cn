@@ -68,6 +68,27 @@ public class Snake {
         }
         mons[temp1].swapPosition(mons[temp2]);
     }
+    public String matrixUp(Matrix matrix, Monster[] mons) {
+        String log = new String();
+        if (sorter == null) {
+            return null;
+        }
+        Linable[] linables = matrix.toArray();
+        int[] ranks = new int[linables.length];
+        for (int i = 0; i < linables.length; i++) {
+            ranks[i] = linables[i].getValue();
+        }
+        sorter.load(ranks);
+        sorter.sort();
+        String[] sortSteps = this.parsePlan(sorter.getPlan());
+        for (String step : sortSteps) {
+            this.execute(step, mons);
+            System.out.println(matrix.toString());
+            log += matrix.toString();
+            log += "\n[frame]\n";
+        }
+        return log;
 
+    }
 
 }

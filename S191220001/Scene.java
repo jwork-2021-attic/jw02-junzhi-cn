@@ -9,7 +9,7 @@ public class Scene {
     public static void main(String[] args) throws IOException {
         Monster[] m;
         m=new Monster[256];
-        Line line = new Line(256);
+        Matrix matrix = new Matrix(256);
         int[] a;
         a=new int[256];
         int[] r;
@@ -151,7 +151,7 @@ public class Scene {
         for(int k=0;k<256;k++)
         {
             m[k]=new Monster(r[k], g[k], b[k], a[k]);
-            line.put(m[k], k);
+            matrix.put(m[k], k);
         }
 
         Snake theSnake = Snake.getTheSnake();
@@ -160,7 +160,7 @@ public class Scene {
 
         theSnake.setSorter(sorter);
 
-        String log = theSnake.lineUp(line,m);
+        String log = theSnake.matrixUp(matrix,m);
 
         BufferedWriter writer;
         writer = new BufferedWriter(new FileWriter("result.txt"));
