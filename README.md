@@ -4,7 +4,7 @@
 请先编译示例代码并运行`Scene.main()`，运行以下命令获得运行结果的可视化：
 
 ```bash
-java -jar asciianimator.jar -f result.txt -l false -c true -fps 3
+java -jar asciianimator.jar -f result.txt -l false -c false -fps 60
 ```
 
 请完成以下三项任务。

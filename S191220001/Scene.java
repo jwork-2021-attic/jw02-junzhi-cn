@@ -156,7 +156,7 @@ public class Scene {
 
         Snake theSnake = Snake.getTheSnake();
 
-        Sorter sorter = new SelectionSorter();
+        Sorter sorter = new QuickSorter();
 
         theSnake.setSorter(sorter);
 

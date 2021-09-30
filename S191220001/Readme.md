@@ -11,14 +11,12 @@
 
 ## 任务二
 
-参考示例代码，设计自己的类型并完成“蛇精指挥256个小妖怪站成一队“的场景。要求：
+类图：
+![](http://www.plantuml.com/plantuml/png/hLF1JiCm3BtdAtBiqBe_61exWpGOS44SiivqeMbI9QbWAljt4iSf4umBx5A_FhllEOwxS5vOtxUABVlDHi7QM0-Mb-N79K-OtVQoQaxmQr1GUMdqYPpKuVaYAY1YOCg8RH7efsSE2bhGtatORCPSo1U8Ql0h9NHuER1A2UVuwF0NaVcSkJVHnN8kfpo6rozfFDJvPMc8PzUzbXe65fzOe43NVZTXPScwtXU15y6MgnJJrp8R94bqy6RjhTHrClVcobgnFnhuoZWPvyq6bk5tSJHru8d-cJwCdvRbHUpuQ1cec0rHONJ8W7S4SkTZHIOUXUhXgDyRertG3dg4yAms3Q1EOJD5hi76WmPLBlTtGZUfFW1qY1SmUb8T5zhu7TWJy_ll6SWX_ZTvCBJtMZHnI1YBtFZz3eWWyxHcHGhSOS2SaXeUkdWrm2EUabFOmpOWhEc4TO2xbux4ku0n0-zGzHuoxpnqiTlnBpVK7_Ny2uCtlm2zxLlr2G00)
 
-1. 每个小妖怪具有一种独特的颜色；
-2. 初始状态下小妖怪随机站成一队；
-3. 实现至少两种排序算法，将小妖怪按其颜色值排序；
-4. 如示例代码一样将排序过程可视化；
-5. 在自己的`Readme.md`中画出相应类图，并添加可视化结果展示链接。
+[视频地址](https://www.bilibili.com/video/BV1nv411G7ef)
 
+<iframe src="//player.bilibili.com/player.html?aid=250777944&bvid=BV1nv411G7ef&cid=417258638&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 ## 任务三
 
@@ -36,5 +34,6 @@
 请在 https://asciinema.org 上注册账户并上传上述执行结果录屏。
 
 [![asciicast](https://asciinema.org/a/436507.svg)](https://asciinema.org/a/436507)
+
 
 
